@@ -4,7 +4,7 @@ require("../controller/validador_acesso.php");
 <?php
 
 $chamados = array();
-$arquivo = fopen('../../../app_help_desk/model/arquivo.dd', 'r');
+$arquivo = fopen('../Server/model/arquivo.dd', 'r');
 while (!feof($arquivo)) {
   $registro = fgets($arquivo);
   $chamados[] = $registro;
