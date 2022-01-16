@@ -1,1 +1,1 @@
-<?php require "../../../app_help_desk/controller/validador_acesso.php" ?>
+<?php require "../Server/controller/validador_acesso.php" ?>
